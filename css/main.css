@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url("../img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2.1rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.container-total {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fecha {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.temperatura {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sol {
+    margin-left: 0.6rem;
+}
+
+.saludo {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container__article {
+    margin-bottom: 4rem;
+}
+
+.article-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horas {
+    width: 5rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.am {
+    margin-top: 0.1rem;
+    text-align: center;
+}
+
+.container-tareas {
+    flex-grow: 1;
+    margin-left: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.tareas {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo-tarea {
+    margin-bottom: 0;
+}
+
+.description-tarea {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+
+//*
+.botones__check {
+    position: fixed;
+    left: 2.5rem;
+    bottom: 1rem;
+}
+
+.botones__editar {
+    position: fixed;
+    left: 45vw;
+    bottom: 1rem;
+}
+
+.botones__anadir {
+    position: fixed;
+    right: 2.5rem;
+    bottom: 1rem;
+} *//
+
+//* .edit {
+    display: flex;
+    position: fixed;
+    margin-top: 5rem;
+} *//
+
+//* <section class="edit">
+            <div>
+                <a href="#"><img src="img/check.png" alt="check"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/edit.png" alt="edit"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/anadir.png" alt="anadir"></a>
+            </div>
+        </section>
+} *//
+
